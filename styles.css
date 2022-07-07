@@ -1,10 +1,18 @@
 body {
     margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .img {
     width: 150px;
 }
 .card {
-    border: 1px dotted blue;
+    color: rgb(206, 220, 233);
+    background-color: rgb(18, 15, 22);
+    border-bottom: 7px solid rgb(108,122,135);
+    text-align: center;
+    margin: 0px auto;
+    width: 400px;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
